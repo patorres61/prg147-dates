@@ -1,0 +1,177 @@
+/* Body style code */
+
+body {
+    background: url("time2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #394059;
+    box-sizing: border-box;
+}
+
+
+/* Viewport style code */
+
+@viewport {
+    width: device-width;
+}
+
+
+/* Box sizing style code */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Column style code */
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* Responsive website code */
+
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+    background-color: green;
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    /* For Desktop */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+/* Header style code */
+
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+    color: #363d40;
+    font-family: 'Philosopher';
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.75em;
+    color: #363d40;
+    font-family: 'Philosopher';
+    text-align: center;
+}
+
+h3,
+h4 {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+/* Paragraph style code */
+
+p {
+    font-weight: 700;
+    font-size: 1.75em;
+    font-family: 'Exo 2';
+    text-align: left;
+}
+
+
+/* Container style code */
+
+.container {
+    max-width: 1160px;
+    min-height: 10px;
+    border-radius: 20px;
+    border: 3px solid #29143e;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.6);
+    margin: 5px auto;
+    padding: 20px;
+    background: rgba(101, 181, 122, 0.84);
+    color: black;
+    overflow: auto;
+}
